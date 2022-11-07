@@ -1,0 +1,145 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+body{
+    background-color: rgba(5,41,46,255)
+}
+
+.App{
+    text-align: center;
+}
+
+.Img-Ricky{
+    width: 100vw;
+    height: 200px;
+    position: relative;
+    object-fit: cover;
+    
+}
+
+.Input{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 150px;
+    margin-right: 95px;
+    
+    
+}
+button{
+    position: absolute;
+    top: 150px;
+    margin-right: -304px;
+    height: 40px;
+    background-color:rgba(6,34,38,255) ;
+    color: white;
+    padding: 0.5rem;
+}
+
+.Card-Character{
+    width: 400px ;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(6,34,38,255);
+    color: white;
+    margin: 1.5rem;
+    font-size: large;
+    text-align: start;
+    position: relative;
+}
+
+.Status-Character{
+    position: absolute;
+    background-color: rgba(6,34,38,255);
+    width: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: 40px;
+    padding: 0.2rem;
+    
+    
+}
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card-Location{
+    background-color: rgba(6,34,38,255);
+    color: white;
+    display: flex;
+    gap: 3rem;
+    font-size: small;
+    justify-content: center;
+    text-align: start;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    max-width: 850px;
+}
+
+.Card-Location > h2  {
+font-weight: 300;
+
+}
+
+.Card-General{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   max-width: 1300px;
+   margin: 0 auto;
+
+
+}
+
+.Card-Character > p > b{
+    font-weight: 300;
+    color: grey;
+    
+    
+}
+.Card-Location > h2 > b{
+    font-weight: 400;
+    
+    
+    
+
+}
+.Card-Character > h2{
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.Card-Character > p{
+    margin-left: 1rem;
+    margin-bottom: 0.7rem;
+}
+p{
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+
+
+@media screen and (min-width: 1170px){
+    .Card-Location{
+        gap: 4rem;
+    }
+   
+}
